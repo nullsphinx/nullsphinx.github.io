@@ -1,10 +1,10 @@
-# _config.yml
-remote_theme: just-the-docs/just-the-docs   # adds nav + search instantly
-title: nullsphinx          # what shows in the header
-search_enabled: true       # on by default, but good to be explicit
-theme: jekyll-theme-cayman
+# ----------------  _config.yml  ----------------
+# Pick *one* theme method.  We’ll use remote_theme.
+remote_theme: just-the-docs/just-the-docs   # sidebar + search
 
-# _config.yml (excerpt)
+title: nullsphinx
+search_enabled: true
+
 just_the_docs:
-  color_scheme: dark      # or 'light', 'auto'
-  logo: /assets/logo.svg
+  color_scheme: dark        # 'light' or 'auto' also work
+  logo: /assets/logo.svg    # optional
