@@ -1,5 +1,5 @@
 # ----------------  _config.yml  ----------------
-# Pick *one* theme method.  We’ll use remote_theme.
+# Pick *one* theme method.  We'll use remote_theme.
 remote_theme: just-the-docs/just-the-docs   # sidebar + search
 
 title: nullsphinx
@@ -8,3 +8,4 @@ search_enabled: true
 just_the_docs:
   color_scheme: dark        # 'light' or 'auto' also work
   logo: /assets/logo.svg    # optional
+  custom_css: assets/css/just-the-docs.css

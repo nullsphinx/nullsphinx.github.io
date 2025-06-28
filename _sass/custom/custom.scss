@@ -1,5 +1,9 @@
 // --------- _sass/custom/custom.scss ---------
 
+// assets/css/just-the-docs.scss
+@import "just-the-docs"; // Import the theme's styles
+@import "../_sass/custom/custom"; // Import your custom styles
+
 // you can tweak these two numbers
 $nav-width: 14rem;       // sidebar width            (default ≈ 15rem)
 $body-max:  48rem;       // max reading column width (≈ 770 px)
