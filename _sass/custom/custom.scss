@@ -1,0 +1,26 @@
+// --------- _sass/custom/custom.scss ---------
+
+// you can tweak these two numbers
+$nav-width: 14rem;       // sidebar width            (default ≈ 15rem)
+$body-max:  48rem;       // max reading column width (≈ 770 px)
+
+/* ≥ “large” breakpoint (992 px for Just the Docs) */
+@include mq(lg) {
+  /* keep sidebar narrow */
+  .side-bar { width: $nav-width; }
+
+  /* centre the main column in the *remaining* space */
+  .main-content-wrap {
+    max-width: $body-max;
+    /* how it works:
+       1. subtract sidebar from full viewport (100vw - nav)
+       2. whatever is left, put the reading column in the middle
+    */
+    margin-left: calc(
+      #{$nav-width} + (100vw - #{$nav-width} - #{$body-max}) / 2
+    );
+    margin-right: auto;          /* balance any rounding */
+    padding-left: 0.5rem;        /* tiny gap so text never kisses the divider */
+    padding-right: 0.5rem;       /* optional – keeps symmetry */
+  }
+}
