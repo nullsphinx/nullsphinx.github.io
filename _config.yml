@@ -2,3 +2,9 @@
 remote_theme: just-the-docs/just-the-docs   # adds nav + search instantly
 title: nullsphinx          # what shows in the header
 search_enabled: true       # on by default, but good to be explicit
+theme: jekyll-theme-cayman
+
+# _config.yml (excerpt)
+just_the_docs:
+  color_scheme: dark      # or 'light', 'auto'
+  logo: /assets/logo.svg

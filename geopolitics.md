@@ -1,6 +1,6 @@
 ---
 title: Geopolitics
-parent: Home
+parent: Nullsphinx
 nav_order: 4
 has_children: false
 ---

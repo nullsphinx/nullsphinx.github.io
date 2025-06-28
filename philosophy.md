@@ -1,6 +1,6 @@
 ---
 title: Philosophy
-parent: Home
+parent: Nullsphinx
 nav_order: 6
 has_children: false
 ---

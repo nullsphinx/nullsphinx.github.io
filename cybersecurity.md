@@ -1,6 +1,6 @@
 ---
 title: Cybersecurity
-parent: Home        # nests under the main page in the sidebar
+parent: Nullsphinx        # nests under the main page in the sidebar
 nav_order: 2
 has_children: false
 ---

@@ -1,0 +1,14 @@
+// _sass/custom/custom.scss
+// ---------------------------------------------------------------------
+//  Adjust widths on ≥992 px (“lg”) screens
+// ---------------------------------------------------------------------
+$nav-width: 14rem !default;         // default is 15 rem (~240 px)
+$body-max-width: 48rem !default;    // default is 37.5 rem (≈ 800 px)
+
+@include mq(lg) {
+  .side-bar            { width: $nav-width; }
+  .main-content-wrap   {
+    max-width: $body-max-width;
+    margin-left: calc(#{$nav-width} + 2rem); // leave a gap from the sidebar
+  }
+}

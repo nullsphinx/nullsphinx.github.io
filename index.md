@@ -1,9 +1,8 @@
 ---
-title: "Nullsphinx"
-layout: default        # delete this line if you’re using the theme’s default
-description: >
-  A hub for my ongoing research and writing on cybersecurity, world history,
-  geopolitics, human nature, and philosophy – all written in Markdown.
+title: Nullsphinx          # what appears at the very top of the sidebar
+layout: home               # wide hero style
+nav_order: 1
+has_children: true         # tells JTD this page owns children
 ---
 
 # Welcome

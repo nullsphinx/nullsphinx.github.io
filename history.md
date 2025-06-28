@@ -1,6 +1,6 @@
 ---
 title: History
-parent: Home
+parent: Nullsphinx
 nav_order: 3
 has_children: false
 ---
