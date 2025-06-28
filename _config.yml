@@ -1,0 +1,4 @@
+# _config.yml
+remote_theme: just-the-docs/just-the-docs   # adds nav + search instantly
+title: nullsphinx          # what shows in the header
+search_enabled: true       # on by default, but good to be explicit
